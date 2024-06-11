@@ -1,0 +1,374 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: #808080;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+p{
+    color: #333333;
+}
+a{
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    row-gap: 50px;
+    width: 100%;
+    height: 100px;
+    padding-inline: 5%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin-bottom: 250px;
+}
+#home-navbar-logo{
+    height: 100%;
+    width: 315px;
+    overflow: hidden;
+    object-fit: contain;
+    align-items: center;
+    display: flex;
+}
+#home-navbar-logo a image{
+    width: 100%;
+    height: auto;
+}
+#home-navbar-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+.nav-button{
+    margin: 0%;
+    padding: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+
+}
+.nav-button  div{
+    padding: 10px 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav-button div:hover{
+    color: #ff3131;
+    border-radius: 10%;
+    
+}
+#home-navbar-signup{
+    background-color: #ccccccaf;
+    color: #333333;
+    display: inline-block;
+    padding-inline: 20px;
+    padding-block: 1px;
+    border-radius: 70px;
+    transition: background-color 0.3s ease;
+}
+#home-navbar-signup div{
+    transition: color 0.3s ease;
+}
+#home-navbar-signup:hover {
+    background-color: #ff3131;
+    color: #ffffff;
+}
+#home-navbar-signup:hover div{
+    color: #ffffff;
+}
+
+
+
+
+main{
+    margin-top: 200px;
+    background-color: #ffffff;
+}
+#home-presentation{
+    width: 62%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+#home-presentation2{
+    width: 62%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /*box-shadow: 5px 5px 30px 5px #FF00004d;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#home-presentation-img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+#home-presentation-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#home-presentation-irm{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    overflow: scroll;
+    border-left: #f83333 10px solid;
+    margin-left: 20px;
+}
+#home-presentation-irm img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#home-presentation-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 25px;
+    padding-inline: 40px;
+    
+}
+#home-presentation-uploaded{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-block: 25px;
+    padding-inline: 40px;
+}
+
+#home-presentation-upload div{
+    margin: 0px;
+    padding: 0px;
+}
+#home-presentation-upload-title h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+#home-presentation-upload-title h1 span{
+    color: #ff3131;
+}
+
+#home-presentation-upload-title p{
+    margin-top: 0px;
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+#home-presentation-upload-main{
+    border: #8694a5ad 2px dashed;
+    width: 85%;
+    margin: auto;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(204, 204, 204, 0.15);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*row-gap: 25px;*/
+    z-index: 200;
+
+}
+form{
+    width: 100%;
+    margin: auto;
+    
+    
+}
+#home-presentation-upload-button{
+    display: inline-block;
+    font-size: 1.4em;
+    width: 92%;
+    font-weight: bold;
+    padding-block: 15px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 500;
+    transition: background-color 0.3s ease;
+}
+#home-presentation-upload-button:hover{
+    background-color: #f83333;
+}
+#home-presentation-upload p{
+    margin-top: 0px;
+}
+#home-presentation-upload-main-icon{
+    margin-bottom: 0px;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    
+}
+#home-presentation-upload-main-icon img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    
+}
+#home-presentation-upload-main-text{
+    margin-top: 20px;
+}
+
+
+#home-presentation-upload-main-text p label{
+    display: none;
+}
+#home-presentation-upload-main-text p input{
+    display: none;
+}
+
+
+.text-center{
+    width: 100%;
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+#home-presentation-uploaded-title h2 span{
+
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    padding-left: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+.bullet {
+    width: 15px; /* Taille de la puce */
+    height: 15px; /* Taille de la puce */
+    border-radius: 50%; /* Pour créer une forme de cercle */
+    display: inline-block;
+    margin-right: 10px;
+}
+/* Couleurs pour chaque type de tumeur */
+.meningioma .bullet {
+    background-color: #FFA500; /* Orange pour les meningiomes */
+    
+}
+.glioma .bullet {
+    background-color: #FF0000; /* Rouge pour les gliomes */
+    
+}
+.pituitary .bullet {
+    background-color: #800080; /* Violet pour les tumeurs pituitaires */
+    
+}
+.notumor .bullet {
+    background-color: #008000; /* Vert pour absence de tumeur */
+    
+}
+.notumor0{
+    color: #008000;
+    border-color: #008000;
+}
+.pituitary0{
+    color: #800080;
+}
+.glioma0{
+    color: #FF0000;
+    border-color: #FF0000;
+}
+.meningioma0{
+    color: #FFA500;
+    border-color: #FFA500;
+}
+
+.notumor1{
+    box-shadow: 5px 5px 30px 5px #0080004d;
+}
+.pituitary1{
+    box-shadow: 5px 5px 30px 5px #8000804d;
+}
+.glioma1{
+    box-shadow: 5px 5px 30px 5px #FF00004d;
+}
+.meningioma1{
+    box-shadow: 5px 5px 30px 5px #ffa5004d;
+}
+
+.uploaded-box h1{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#recommandation{
+    font-style: italic;
+    color: #808080;
+    text-align: center;
+}
+
+#back-button{
+    display: inline-block;
+    font-size: 1.5em;
+    width: 30%;
+    font-weight: bold;
+    padding-block: 15px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 500;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 780px;
+    left: 35%;
+    z-index: 1000;
+}
+
+
+
+
+
+
+li span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
